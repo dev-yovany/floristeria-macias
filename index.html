@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floristería Macias</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- SEO básico -->
+<meta name="description" content="Floristería Macias: compra y envíos de flores a Cuba, arreglos artesanales, entrega en La Habana y Artemisa.">
+<link rel="canonical" href="https://dev-yovany.github.io/floristeria-macias/">
+
+<!-- Open Graph (redes sociales) -->
+<meta property="og:title" content="Floristería Macias">
+<meta property="og:description" content="Envío de flores a Cuba. Arreglos florales artesanales.">
+<meta property="og:image" content="https://dev-yovany.github.io/floristeria-macias/image.png">
+<meta property="og:url" content="https://dev-yovany.github.io/floristeria-macias/">
+<meta property="og:type" content="website">
+
+<!-- Datos estructurados JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Florist",
+  "name": "Floristería Macias",
+  "logo": "https://dev-yovany.github.io/floristeria-macias/logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Calle 70 #5323 53/55",
+    "addressLocality": "Artemisa",
+    "addressCountry": "Cuba"
+  },
+  "url": "https://dev-yovany.github.io/floristeria-macias/",
+  "telephone": "+53 5 9456827"
+}
+</script>
+
+</head>
+<body id="inicio">
+  <header class="site-header">
+<nav class="site-nav" role="navigation" aria-label="Menú principal">
+  <!-- Logo -->
+  <p class="brand" data-i18n="floristeria">Macias</p>
+
+
+  
+
+<button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú de navegación">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+
+
+
+
+  <!-- Menú (incluye idioma) -->
+  <ul class="menu-principal" id="menu-principal">
+    <li><a href="#inicio" data-i18n="inicio">Inicio</a></li>
+    <li><a href="#galeria" data-i18n="galeria">Galería</a></li>
+    <li><a href="#nosotros" data-i18n="nosotros">Sobre Nosotros</a></li>
+    <li><a href="#contacto" data-i18n="contacto">Contacto</a></li>
+
+    <!-- Idioma dentro del menú -->
+    <li class="idioma">
+   <a href="javascript:void(0)" id="idioma-toggle">ES</a>
+   </li>
+  </ul>
+</nav>
+
+    <section class="hero">
+        <h1 data-i18n="titulo">Floristería Macias</h1>
+        <p data-i18n="subtitulo">La manera más sencilla de enviar flores a tus familiares en Cuba.</p>
+    </section>
+  </header>
+
+  <main class="site-main">
+    <section id="galeria">
+      <h2 data-i18n="arreglos">Arreglos Florales</h2>
+        <div class="main-divider"></div>
+
+      <div class="filtros">
+    
+        <button data-flor="todas" class="activo" data-i18n="todas">Todas</button>
+        <button data-flor="rosas" data-i18n="rosas">Rosas</button>
+        <button data-flor="girasoles" data-i18n="girasoles">Girasoles</button>
+        <button data-flor="lirios" data-i18n="lirios">Lirios</button>
+        <button data-flor="orquídeas" data-i18n="orquideas">Orquídeas</button>
+        <button data-flor="gladiolos" data-i18n="gladiolos">Gladiolos</button>
+        <button data-flor="azucenas" data-i18n="azucenas">Azucenas</button>
+        <button data-flor="mixtos" data-i18n="mixtos">Mixtos</button>
+      </div>
+
+      <div class="grid">
+<!-- Artículo 1 -->
+        <article data-flor="rosas lirios mixtos">
+            <img src="img/img1.webp" alt="Ramo Jardín Secreto (6 lirios, 3 rosas)">
+            <h3 class="nombre-article" data-i18n="a1">Jardín Secreto</h3>
+            <p class="info-article" data-i18n="detalles">Ver detalles</p>
+            <!-- Información oculta para el modal -->
+              <div class="detalle" style="display:none;">
+                 <p data-i18n="d1">Jardín Secreto (6 lirios, 3 rosas)</p> 
+                 <p data-i18n="o1">Un susurro de esperanza que termina diciendo que es ideal para celebrar un nuevo comienzo.</p>
+                   <p data-i18n="c1">Mantén los tallos en agua fresca y corta un poco sus extremos cada dos días para prolongar su belleza.</p>
+                </div>
+        </article>
+<!-- Artículo 2 -->
+<article data-flor="rosas lirios mixtos">
+    <img src="img/img2.webp" alt="Ramo Elegancia Natural (6 rosas, 3 lirios)">
+    <h3 class="nombre-article" data-i18n="a2">Elegancia Natural</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d2">Elegancia Natural (6 rosas, 3 lirios)</p> 
+        <p data-i18n="o2">La fuerza del amor se suaviza con la calma de los lirios, un equilibrio perfecto que es ideal para expresar gratitud profunda.</p>
+        <p data-i18n="c2">Evita la luz directa del sol y cambia el agua con frecuencia para conservar su frescura.</p>
+    </div>
+</article>
+
+<!-- Artículo 3 -->
+<article data-flor="rosas orquídeas mixtos">
+    <img src="img/img3.webp" alt="Ramo Caricia Floral (4 orquídeas, 6 rosas)">
+    <h3 class="nombre-article" data-i18n="a3">Caricia Floral</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d3">Caricia Floral (4 orquídeas, 6 rosas)</p> 
+        <p data-i18n="o3">La delicadeza de las orquídeas junto a la intensidad de las rosas es un abrazo silencioso que es ideal para un gesto de ternura inolvidable.</p>
+        <p data-i18n="c3">Rocía ligeramente las orquídeas y mantén las rosas en agua limpia para que ambas florezcan más tiempo.</p>
+    </div>
+</article>
+
+<!-- Artículo 4 -->
+<article data-flor="girasoles" >
+    <img src="img/img4.webp" alt="Ramo Sol de Alegría (15 girasoles)">
+    <h3 class="nombre-article" data-i18n="a4">Sol de Alegría</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d4">Sol de Alegría (15 girasoles)</p> 
+        <p data-i18n="o4">La luz dorada de los girasoles es un canto al optimismo, un reflejo del sol que es ideal para regalar alegría en días oscuros.</p>
+        <p data-i18n="c4">Colócalos en un lugar iluminado y cambia el agua cada dos días para mantener su vitalidad.</p>
+    </div>
+</article>
+
+<!-- Artículo 5 -->
+<article data-flor="lirios">
+    <img src="img/img5.webp" alt="Pureza Blanca (20 lirios)">
+    <h3 class="nombre-article" data-i18n="a5">Pureza Blanca</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d5">Pureza Blanca (20 lirios)</p> 
+        <p data-i18n="o5">La blancura de los lirios es un símbolo de paz interior, un silencio que acaricia el alma y es ideal para momentos de reflexión espiritual.</p>
+        <p data-i18n="c5">Manténlos en agua fresca y retira las flores marchitas para prolongar su pureza.</p>
+    </div>
+</article>
+
+<!-- Artículo 6 -->
+<article data-flor="rosas">
+    <img src="img/img6.webp" alt="Ramo Suspiro de Amor (10 rosas)">
+    <h3 class="nombre-article" data-i18n="a6">Suspiro de Amor</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d6">Suspiro de Amor (10 rosas)</p> 
+        <p data-i18n="o6">Cada rosa es un latido que se convierte en suspiro, un lenguaje secreto que es ideal para declarar un amor sincero.</p>
+        <p data-i18n="c6">Corta los tallos en diagonal y evita corrientes de aire para que duren más.</p>
+    </div>
+</article>
+
+<!-- Artículo 7 -->
+<article data-flor="orquídeas">
+    <img src="img/img7.webp" alt="Ramo Dulce Encanto (10 orquídeas)">
+    <h3 class="nombre-article" data-i18n="a7">Dulce Encanto</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d7">Dulce Encanto (10 orquídeas)</p> 
+        <p data-i18n="o7">La elegancia de las orquídeas es un misterio que florece en silencio, ideal para transmitir admiración y respeto.</p>
+        <p data-i18n="c7">Rocía sus pétalos con agua y mantenlas en un ambiente húmedo para conservar su encanto.</p>
+    </div>
+</article>
+
+<!-- Artículo 8 -->
+<article data-flor="rosas">
+    <img src="img/img8.webp" alt="Ramo Día Especial (20 rosas)">
+    <h3 class="nombre-article" data-i18n="a8">Día Especial</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d8">Día Especial (20 rosas)</p> 
+        <p data-i18n="o8">Veinte rosas que se convierten en un coro de emociones, un regalo que es ideal para marcar un día inolvidable.</p>
+        <p data-i18n="c8">Cambia el agua diariamente y corta los tallos para que mantengan su frescura.</p>
+    </div>
+</article>
+
+<!-- Artículo 9 -->
+<article data-flor="rosas">
+    <img src="img/img9.webp" alt="Ramo Pasión Roja (100 rosas)">
+    <h3 class="nombre-article" data-i18n="a9">Pasión Roja</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d9">Pasión Roja (100 rosas)</p> 
+        <p data-i18n="o9">Un océano de rosas rojas que grita eternidad, un gesto desbordante que es ideal para un amor sin límites.</p>
+        <p data-i18n="c9">Usa un florero grande con agua abundante y retira hojas sumergidas para evitar que se marchiten rápido.</p>
+    </div>
+</article>
+
+<!-- Artículo 10 -->
+<article data-flor="lirios">
+    <img src="img/img10.webp" alt="Paz y Luz (10 lirios)">
+    <h3 class="nombre-article" data-i18n="a10">Paz y Luz</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d10">Paz y Luz (10 lirios)</p> 
+        <p data-i18n="o10">Los lirios blancos son un faro silencioso que ilumina el alma, ideal para transmitir serenidad en momentos difíciles.</p>
+        <p data-i18n="c10">Manténlos en agua fresca y evita la exposición directa al calor para conservar su luz.</p>
+    </div>
+</article>
+
+<!-- Artículo 11 -->
+<article data-flor="girasoles lirios mixtos">
+    <img src="img/img11.webp" alt="Ramo Canto del Sol (10 girasoles, 10 lirios)">
+    <h3 class="nombre-article" data-i18n="a11">Canto del Sol</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d11">Canto del Sol (10 girasoles, 10 lirios)</p> 
+        <p data-i18n="o11">La energía del sol se une con la calma de los lirios, un canto de esperanza que es ideal para celebrar la vida.</p>
+        <p data-i18n="c11">Cambia el agua con frecuencia y corta los tallos en diagonal para mantenerlos radiantes.</p>
+    </div>
+</article>
+
+<!-- Artículo 12 -->
+<article data-flor="girasoles">
+    <img src="img/img12.webp" alt="Ramo Sonrisa Dorada (10 girasoles)">
+    <h3 class="nombre-article" data-i18n="a12">Sonrisa Dorada</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d12">Sonrisa Dorada (10 girasoles)</p> 
+        <p data-i18n="o12">Cada girasol es una sonrisa que se abre al mundo, ideal para regalar optimismo y amistad sincera.</p>
+        <p data-i18n="c12">Colócalos en un lugar iluminado y cambia el agua cada dos días para mantener su alegría.</p>
+    </div>
+</article>
+
+<!-- Artículo 13 -->
+<article data-flor="girasoles rosas mixtos">
+    <img src="img/img13.webp" alt="Ramo Primavera Viva (6 girasoles, 8 rosas)">
+    <h3 class="nombre-article" data-i18n="a13">Primavera Viva</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d13">Primavera Viva (6 girasoles, 8 rosas)</p> 
+        <p data-i18n="o13">La fuerza del sol y la pasión de las rosas se funden en un estallido de vida, ideal para celebrar la llegada de nuevos comienzos.</p>
+        <p data-i18n="c13">Manténlos en agua fresca y corta los tallos regularmente para prolongar su frescura.</p>
+    </div>
+</article>
+
+<!-- Artículo 14 -->
+<article data-flor="rosas">
+    <img src="img/img14.webp" alt="Ramo Vuelo de Amor (15 rosas)">
+    <h3 class="nombre-article" data-i18n="a14">Vuelo de Amor</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d14">Vuelo de Amor (15 rosas)</p> 
+        <p data-i18n="o14">Quince rosas que vuelan como mariposas rojas, un susurro ardiente que es ideal para un amor apasionado.</p>
+        <p data-i18n="c14">Cambia el agua cada día y evita la exposición directa al sol para que duren más.</p>
+    </div>
+</article>
+
+<!-- Artículo 15 -->
+<article data-flor="lirios gladiolos azucenas mixtos">
+    <img src="img/img15.webp" alt="Ramo Luz Eterna (2 gladiolos, 2 lirios, 4 azucenas)">
+    <h3 class="nombre-article" data-i18n="a15">Luz Eterna</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d15">Luz Eterna (2 gladiolos, 2 lirios, 4 azucenas)</p> 
+        <p data-i18n="o15">La unión de gladiolos, lirios y azucenas es un símbolo de eternidad, ideal para honrar recuerdos que nunca mueren.</p>
+        <p data-i18n="c15">Manténlos en agua fresca y retira las flores marchitas para conservar su armonía.</p>
+    </div>
+</article>
+
+<!-- Artículo 16 -->
+<article data-flor="rosas girasoles mixtos">
+    <img src="img/img16.webp" alt="Ramo Mariposa Dorada (4 girasoles, 14 rosas y adorno)">
+    <h3 class="nombre-article" data-i18n="a16">Mariposa Dorada</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d16">Mariposa Dorada (4 girasoles, 14 rosas y adorno)</p> 
+        <p data-i18n="o16">La calidez del sol y la pasión de las rosas se convierten en un vuelo dorado, ideal para celebrar la magia de un encuentro especial.</p>
+        <p data-i18n="c16">Cambia el agua con frecuencia y cuida los adornos para que el ramo conserve su elegancia.</p>
+    </div>
+</article>
+
+<!-- Artículo 17 -->
+<article data-flor="rosas">
+    <img src="img/img17.webp" alt="Ramo Amor Eterno (25 rosas y adorno)">
+    <h3 class="nombre-article" data-i18n="a17">Amor Eterno</h3>
+    <p class="info-article" data-i18n="detalles">Ver detalles</p>
+    <div class="detalle" style="display:none;">
+        <p data-i18n="d17">Amor Eterno (25 rosas y adorno)</p> 
+        <p data-i18n="o17">Veinticinco rosas que se convierten en promesa, un gesto profundo que es ideal para sellar un amor eterno.</p>
+        <p data-i18n="c17">Manténlas en agua limpia y corta los tallos en diagonal para prolongar su belleza.</p>
+    </div>
+</article>
+      </div>
+    </section>
+    <section id="nosotros">
+      <h2 data-i18n="nosotros">Sobre Nosotros</h2>
+         <div class="main-divider nosotros-divider"></div>
+        <h3 data-i18n="somos">¿Quiénes somos?</h3>
+        <p data-i18n="psomos">Somos un negocio familiar con más de 10 años de experiencia
+           en el arte floral en Cuba. Nuestra pasión es transformar flores 
+           frescas en mensajes de amor, gratitud y esperanza. Cada arreglo
+            que elaboramos lleva consigo el cuidado artesanal que nos distingue.</p>
+              <h3 data-i18n="encargos">¿Cómo funcionan los encargos?</h3>
+              <p data-i18n="pencargos">Los ramos de tu preferencia se solicitan a través de cualquiera de 
+                las redes indicadas en nuestra sección de contacto. Allí puedes confirmar 
+                precios y definir la dirección de entrega. Una vez
+                 realizado el pedido, preparamos tu arreglo con dedicación y lo llevamos 
+                 puntualmente hasta la dirección dada. Puedes realizar tu pedido desde cualquier lugar del mundo. Actualmente las entregas se realizan 
+                únicamente en Cuba, específicamente en las provincias de La Habana y Artemisa.</p>
+              <h3 data-i18n="compromiso">Nuestro compromiso</h3>
+              <p data-i18n="pcompromiso">Nos comprometemos a:
+
+Ofrecer flores frescas y seleccionadas con esmero.
+
+Mantener un servicio confiable y responsable.
+
+Convertir cada pedido en un recuerdo inolvidable para quien lo recibe.</p>
+    </section>
+  </main>
+
+  <footer id="contacto" class="site-footer">
+
+    <h2 class="footer-superior" data-i18n="enlace">¿Cómo contactarnos?</h2>
+    <div class="footer-divider"></div>
+<div class="footer-grid">
+  <div class="footer-item">
+    <a href="https://wa.me/+5359456827" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <p>WhatsApp</p>
+  </div>
+  <div class="footer-item">
+    <a href="https://instagram.com/maciasfloristeria" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <p>Instagram</p>
+  </div>
+  <div class="footer-item">
+  <a href="https://facebook.com/share/16jip1futc/" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <p>Facebook</p>
+</div>
+  <div class="footer-item">
+    <a href="https://www.google.com/maps/place/22%C2%B053'11.4%22N+82%C2%B030'28.6%22W/@22.8864431,-82.5086339,18.75z/data=!4m4!3m3!8m2!3d22.886486!4d-82.507948?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+      <i class="fas fa-map-marker-alt"></i>
+    </a>
+    <p data-i18n="direccion">Calle 70 #5323 53/55</p>
+  </div>
+
+</div>
+
+  </footer>
+
+
+<!-- Modal para imágenes -->
+<div id="modal" class="modal">
+   <div class="modal-contenido">
+     <img id="imagen-ampliada" alt="Imagen ampliada">
+      <div class="modal-texto" id="modal-texto"> 
+        <!-- Aquí se insertará el contenido dinámico -->
+         </div> </div> 
+        </div>
+<div id="site-overlay" aria-hidden="true"></div>
+<script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dev-yovany.github.io/floristeria-macias/sitemap.xml
