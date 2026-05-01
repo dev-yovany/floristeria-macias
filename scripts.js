@@ -217,22 +217,22 @@ const traducciones = {
         c17: "Manténlas en agua limpia y corta los tallos en diagonal para prolongar su belleza.",
 
         // Artículo 18
-        a18: "Corona Eterna Primavera",
-        d18: "Corona Eterna Primavera",
+        a18: "Corona de homenaje",
+        d18: "Corona de homenaje",
         o18: "Para honrar y recordar a un ser querido.",
-        c18: "Conservar en lugar fresco y sombreado.",
+  
 
         //   Artículo 19
 a19: "Corona Blanca Paz",
 d19: "Corona Blanca Paz",
 o19: "Un símbolo de pureza y serenidad, ideal para rendir homenaje con respeto y calma.",
-c19: "Mantener en lugar fresco y ventilado para conservar su belleza.",
+
 
         //   Artículo 20 
 a20: "Corona Tributo Solemne",
 d20: "Corona Tributo Solemne",
 o20: "Un homenaje respetuoso que transmite fuerza, gratitud y la calidez de los recuerdos compartidos.",
-c20: "Conservar en lugar fresco y sombreado para mantener su esplendor.",
+
 
         //   Artículo 21 
 a21: "Dulce Compañía",
@@ -391,22 +391,22 @@ c23: "Mantener las rosas en agua limpia y cortar los tallos en diagonal para pro
         c17: "Keep them in clean water and cut the stems diagonally to prolong their beauty.",
 
         // Artículo 18
-        a18: "Eternal Spring Wreath",
-        d18: "Eternal Spring Wreath",
+        a18: "Tribute wreath",
+        d18: "Tribute wreath",
         o18: "To honor and remember a loved one.",
-        c18: "Keep in a cool and shaded place.",
+   
 
         //   Artículo 19
 a19: "White Peace Wreath",
 d19: "White Peace Wreath",
 o19: "A symbol of purity and serenity, perfect to honor with respect and tranquility.",
-c19: "Keep in a cool and ventilated place to preserve its beauty.",
+
 
         //   Artículo 20 
 a20: "Solemn Tribute Wreath",
 d20: "Solemn Tribute Wreath",
 o20: "A respectful tribute that conveys strength, gratitude, and the warmth of shared memories.",
-c20: "Keep in a cool and shaded place to preserve its splendor.",
+
 
         //   Artículo 21 
 a21: "Sweet Company",
