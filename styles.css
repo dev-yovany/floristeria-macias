@@ -656,4 +656,168 @@ right: 0;
   }
 }
 
+/* Banner flotante Día de las Madres - Versión fija */
+.banner-madres {
+  position: fixed;
+  top: 90px;
+  right: 20px;
+  z-index: 2500;
+  background: linear-gradient(135deg, #ff6b6b 0%, #d4a373 50%, #ff6b6b 100%);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4), 
+              0 0 0 3px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transform-origin: center;
+  animation: flotarFijo 2.5s ease-in-out infinite, 
+             brillarFijo 2s ease-in-out infinite alternate,
+             entrada 0.8s ease-out;
+  backdrop-filter: blur(5px);
+  max-width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.banner-madres:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(255, 107, 107, 0.6), 
+              0 0 0 4px rgba(255, 255, 255, 0.5);
+  animation: flotarFijo 2.5s ease-in-out infinite, 
+             brillarFijo 2s ease-in-out infinite alternate;
+}
+
+.banner-contenido {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.banner-icono {
+  font-size: 1.5rem;
+  animation: girarFijo 2s ease-in-out infinite;
+}
+
+.banner-texto {
+  font-family: 'Raleway', 'Georgia', serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 1.3;
+}
+
+.banner-subtexto {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* Animación flotante FIJADA EN SU LUGAR */
+@keyframes flotarFijo {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.05);
+  }
+}
+
+/* Efecto brillo */
+@keyframes brillarFijo {
+  0% {
+    box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4), 
+                0 0 20px rgba(212, 163, 115, 0.3);
+  }
+  100% {
+    box-shadow: 0 12px 35px rgba(255, 107, 107, 0.6), 
+                0 0 35px rgba(212, 163, 115, 0.5);
+  }
+}
+
+/* Rotación suave de iconos */
+@keyframes girarFijo {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(12deg) scale(1.15);
+  }
+  75% {
+    transform: rotate(-12deg) scale(1.15);
+  }
+}
+
+/* Animación de entrada */
+@keyframes entrada {
+  0% {
+    opacity: 0;
+    transform: translateX(100px) scale(0.5);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-10px) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* Animación de salida */
+@keyframes salida {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5) translateX(100px);
+  }
+}
+
+/* Clase para cerrar el banner */
+.banner-madres.cerrando {
+  animation: salida 0.4s ease-out forwards !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .banner-madres {
+    top: 80px;
+    right: 10px;
+    left: 10px;
+    max-width: none;
+    border-radius: 15px;
+    padding: 0.8rem 1rem;
+  }
+  
+  .banner-texto {
+    font-size: 1rem;
+  }
+  
+  .banner-subtexto {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-madres {
+    top: 70px;
+    padding: 0.7rem 0.8rem;
+  }
+  
+  .banner-icono {
+    font-size: 1.2rem;
+  }
+  
+  .banner-texto {
+    font-size: 0.9rem;
+  }
+}

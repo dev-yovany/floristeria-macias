@@ -104,12 +104,16 @@ const traducciones = {
         gladiolos: "Gladiolos",
         azucenas: "Azucenas",
         mixtos: "Mixtos",
+        coronas: "Coronas",
+        adorno: "con Adorno",
         detalles: "Ver detalles",
         whatsapp: "WhatsApp",
         instagram: "Instagram",
         facebook: "Facebook",
         direccion: "Calle 70 #5323 53/55",
-        
+        p1:"Pulsa en cualquier lugar para cerrar...",
+        especial:"¡Especial Día de las Madres!",
+        especialinfo:"Toca para ver arreglos con adornos",
         // Artículo 1
         a1: "Jardín Secreto",
         d1: "Jardín Secreto (6 lirios, 3 rosas)",
@@ -211,6 +215,43 @@ const traducciones = {
         d17: "Amor Eterno (25 rosas y adorno)",
         o17: "Veinticinco rosas que se convierten en promesa, un gesto profundo que es ideal para sellar un amor eterno.",
         c17: "Manténlas en agua limpia y corta los tallos en diagonal para prolongar su belleza.",
+
+        // Artículo 18
+        a18: "Corona Eterna Primavera",
+        d18: "Corona Eterna Primavera",
+        o18: "Para honrar y recordar a un ser querido.",
+        c18: "Conservar en lugar fresco y sombreado.",
+
+        //   Artículo 19
+a19: "Corona Blanca Paz",
+d19: "Corona Blanca Paz",
+o19: "Un símbolo de pureza y serenidad, ideal para rendir homenaje con respeto y calma.",
+c19: "Mantener en lugar fresco y ventilado para conservar su belleza.",
+
+        //   Artículo 20 
+a20: "Corona Tributo Solemne",
+d20: "Corona Tributo Solemne",
+o20: "Un homenaje respetuoso que transmite fuerza, gratitud y la calidez de los recuerdos compartidos.",
+c20: "Conservar en lugar fresco y sombreado para mantener su esplendor.",
+
+        //   Artículo 21 
+a21: "Dulce Compañía",
+d21: "Dulce Compañía (10 rosas, 4 lirios y osito de peluche)",
+o21: "Un gesto tierno y alegre que combina la belleza de las flores con la dulzura de un osito, ideal para celebrar el amor y la amistad.",
+c21: "Mantener las flores en agua limpia y colocar el ramo en un lugar fresco para prolongar su frescura.",
+
+        //   Artículo 22 
+a22: "Abrazo de Rosas",
+d22: "Abrazo de Rosas (15 rosas y osito de peluche)",
+o22: "Un regalo lleno de cariño y ternura, donde la belleza de las rosas se acompaña con la dulzura de un osito, perfecto para expresar amor o amistad.",
+c22: "Mantener las rosas en agua limpia y cortar los tallos en diagonal para prolongar su frescura.",
+
+        //   Artículo 23
+a23: "Encanto de Rosas",
+d23: "Encanto de Rosas (15 rosas y osito de peluche)",
+o23: "Un gesto lleno de dulzura y afecto, donde la belleza de las rosas se acompaña con la ternura de un osito, ideal para expresar cariño sincero.",
+c23: "Mantener las rosas en agua limpia y cortar los tallos en diagonal para prolongar su frescura.",
+
         somos:"¿Quiénes somos?",
         psomos:"Somos un negocio familiar con más de 10 años de experiencia en el arte floral en Cuba. Nuestra pasión es transformar flores frescas en mensajes de amor, gratitud y esperanza. Cada arreglo que elaboramos lleva consigo el cuidado artesanal que nos distingue.",
         encargos:"¿Cómo funcionan los encargos?",
@@ -237,12 +278,16 @@ const traducciones = {
         gladiolos: "Gladioli",
         azucenas: "Madonna Lilies",
         mixtos: "Mixed",
+        coronas: "Wreaths",
+        adorno: "with Decoration",
         detalles: "View details",
         whatsapp: "WhatsApp",
         instagram: "Instagram",
         facebook: "Facebook",
         direccion: "Calle 70 #5323 53/55",
-        
+        p1:"Tap anywhere to close...",
+        especial:"Mother's Day Special!",
+        especialinfo:"Tap to see arrangements with decoration",
         // Article 1
         a1: "Secret Garden",
         d1: "Secret Garden (6 lilies, 3 roses)",
@@ -344,6 +389,44 @@ const traducciones = {
         d17: "Eternal Love (25 roses and decoration)",
         o17: "Twenty-five roses that become a promise, a deep gesture that is ideal for sealing an eternal love.",
         c17: "Keep them in clean water and cut the stems diagonally to prolong their beauty.",
+
+        // Artículo 18
+        a18: "Eternal Spring Wreath",
+        d18: "Eternal Spring Wreath",
+        o18: "To honor and remember a loved one.",
+        c18: "Keep in a cool and shaded place.",
+
+        //   Artículo 19
+a19: "White Peace Wreath",
+d19: "White Peace Wreath",
+o19: "A symbol of purity and serenity, perfect to honor with respect and tranquility.",
+c19: "Keep in a cool and ventilated place to preserve its beauty.",
+
+        //   Artículo 20 
+a20: "Solemn Tribute Wreath",
+d20: "Solemn Tribute Wreath",
+o20: "A respectful tribute that conveys strength, gratitude, and the warmth of shared memories.",
+c20: "Keep in a cool and shaded place to preserve its splendor.",
+
+        //   Artículo 21 
+a21: "Sweet Company",
+d21: "Sweet Company (10 roses, 4 lilies and teddy bear)",
+o21: "A tender and joyful gesture that combines the beauty of flowers with the sweetness of a teddy bear, perfect to celebrate love and friendship.",
+c21: "Keep the flowers in clean water and place the bouquet in a cool spot to extend its freshness.",
+
+        //   Artículo 22 
+a22: "Roses Embrace",
+d22: "Roses Embrace (15 roses and teddy bear)",
+o22: "A gift full of affection and tenderness, where the beauty of roses is paired with the sweetness of a teddy bear, perfect to express love or friendship.",
+c22: "Keep the roses in clean water and cut the stems diagonally to extend their freshness.",
+
+
+        //   Artículo 23
+a23: "Roses Charm",
+d23: "Roses Charm (15 roses and teddy bear)",
+o23: "A gesture full of sweetness and affection, where the beauty of roses is paired with the tenderness of a teddy bear, perfect to express genuine care.",
+c23: "Keep the roses in clean water and cut the stems diagonally to extend their freshness.",
+
         somos:"Who are we?",
         psomos:"We are a family business with over 10 years of experience in floral design in Cuba. Our passion is transforming fresh flowers into messages of love, gratitude, and hope. Each arrangement we create embodies the artisanal care that sets us apart.",
         encargos:"How do orders work?",
@@ -463,3 +546,133 @@ document.addEventListener("DOMContentLoaded", () => {
   observer.observe(footer);
 
 });
+
+
+
+// Coloca este script al final del <body> o en un archivo .js cargado después del DOM.
+(function () {
+  // Selectores principales
+  const banner = document.getElementById('banner-madres') || document.querySelector('.banner-madres');
+  const header = document.querySelector('header');
+  const galeria = document.getElementById('galeria');
+  const filtroAdornoBtn = document.querySelector('[data-flor="adorno"]');
+
+  if (!banner || !header || !galeria || !filtroAdornoBtn) {
+    console.warn('Banner, header, galeria o botón de adorno no encontrados. Ajusta los selectores si es necesario.');
+    return;
+  }
+
+  // --- Manejo de mostrar/ocultar según zona del header ---
+  // Observador que detecta si el header está visible en viewport
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        // Si el header está visible, mostramos el banner (si no está en proceso de cierre)
+        if (!banner.classList.contains('cerrando')) {
+          banner.style.display = ''; // restaura display
+          // Forzamos reflow para permitir la animación de entrada si se desea
+          banner.classList.remove('oculto-temporal');
+        }
+      } else {
+        // Si el header ya no está visible, ocultamos el banner con animación de salida
+        if (!banner.classList.contains('cerrando')) {
+          banner.classList.add('cerrando');
+          // Después de la animación, lo escondemos completamente
+          banner.addEventListener('animationend', function onEnd() {
+            banner.style.display = 'none';
+            banner.classList.remove('cerrando');
+            banner.removeEventListener('animationend', onEnd);
+            // Marcar como oculto temporal para evitar re-trigger inmediato
+            banner.classList.add('oculto-temporal');
+          }, { once: true });
+        }
+      }
+    });
+  }, { threshold: 0.05 });
+
+  observer.observe(header);
+
+  // --- Manejo del clic en el banner ---
+  // Para evitar activaciones por gestos de desplazamiento en móviles, implementamos detección simple de tap
+  let touchStartPos = null;
+  const TOUCH_MOVE_THRESHOLD = 10; // px
+
+  banner.addEventListener('touchstart', (e) => {
+    if (e.touches && e.touches[0]) {
+      touchStartPos = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    }
+  }, { passive: true });
+
+  banner.addEventListener('touchend', (e) => {
+    if (!touchStartPos) return;
+    const touch = (e.changedTouches && e.changedTouches[0]) || null;
+    if (!touch) { touchStartPos = null; return; }
+    const dx = Math.abs(touch.clientX - touchStartPos.x);
+    const dy = Math.abs(touch.clientY - touchStartPos.y);
+    touchStartPos = null;
+    if (dx <= TOUCH_MOVE_THRESHOLD && dy <= TOUCH_MOVE_THRESHOLD) {
+      // Es un tap: disparar la acción de clic
+      handleBannerClick();
+    }
+  });
+
+  // Solo manejamos click real (no pointerdown ni mouseup)
+  banner.addEventListener('click', (e) => {
+    // Evitar doble ejecución si el touchend ya lo disparó
+    if (e.detail === 0) return;
+    handleBannerClick();
+  });
+
+  // Acción principal al hacer clic en el banner
+  function handleBannerClick() {
+    // 1) Cerrar el banner con la animación 'salida' (clase .cerrando ya definida en tu CSS)
+    banner.classList.add('cerrando');
+
+    // 2) Después de la animación, ocultar y desplazar a la galería
+    banner.addEventListener('animationend', function onClose() {
+      banner.style.display = 'none';
+      banner.classList.remove('cerrando');
+      banner.removeEventListener('animationend', onClose);
+
+      // 3) Aplicar filtro 'adorno' en la galería
+      applyAdornoFilter();
+
+      // 4) Desplazar suavemente a la sección de galería
+      galeria.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, { once: true });
+  }
+
+  // --- Función para aplicar el filtro 'adorno' ---
+  function applyAdornoFilter() {
+    // Queremos que el botón solo reaccione a clics reales.
+    // Aquí simulamos un "click programático" sobre el botón de filtro,
+    // pero también actualizamos la UI (clase activo) para reflejar el filtro.
+    // Si tu código de filtros depende de eventos click en ese botón, button.click() activará esos handlers.
+    // Si prefieres solo cambiar la apariencia sin disparar handlers, comenta button.click().
+
+    // 1) Remover clase activo de otros botones
+    const botones = document.querySelectorAll('.filtros [data-flor]');
+    botones.forEach(b => b.classList.remove('activo'));
+
+    // 2) Marcar el botón de adorno como activo
+    filtroAdornoBtn.classList.add('activo');
+
+    // 3) Disparar su handler de click si existe (esto respeta la petición "no debe reaccionar a más nada que no sea el clic")
+    // Llamada programática a click para activar cualquier lógica existente de filtrado.
+    // Si no quieres ejecutar handlers, elimina o comenta la siguiente línea.
+    filtroAdornoBtn.click();
+  }
+
+  // --- Asegurar que el botón de filtro no reaccione a eventos de desplazamiento ---
+  // Evitamos que el botón responda a pointerdown/touchstart que no sean taps reales.
+  // Si hay handlers externos que usan pointerdown, esto no los bloquea; para eso habría que modificar esos handlers.
+  filtroAdornoBtn.addEventListener('touchstart', (e) => {
+    // No hacemos nada aquí: la activación se controla por click/touchend en este script.
+  }, { passive: true });
+
+  // --- Limpieza al recargar o navegar ---
+  window.addEventListener('beforeunload', () => {
+    observer.disconnect();
+  });
+
+})();
