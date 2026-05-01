@@ -821,3 +821,37 @@ right: 0;
     font-size: 0.9rem;
   }
 }
+@media (max-width: 768px){
+  .modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background-color: rgba(0,0,0,0.9); /* fondo oscuro */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-contenido {
+  flex-direction: column; /* organiza los hijos en columna */
+  display: flex;
+  gap: 1.5rem;
+  max-width: auto;
+  max-height: 80%;
+  /* ❌ quitamos fondo blanco */
+  background: transparent;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.modal-contenido img {
+  max-width: auto;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 0.5rem;
+  background: transparent; /* 👈 evita cualquier color detrás */ 
+  box-shadow: none; /* 👈 elimina la sombra oscura */
+}
+
+}
